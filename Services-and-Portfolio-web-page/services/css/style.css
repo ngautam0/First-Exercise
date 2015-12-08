@@ -2,9 +2,9 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-    min-width: 1500px;
+    min-width: 800px;
 }
-
+/*keeping animation for body separate for making changes easy*/
 body{
     -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 4s; /* Firefox < 16 */
@@ -81,7 +81,7 @@ body{
 }
 #nav-bar li {
     display: inline;
-    font-family: lato, sans-serif;
+    font-family: 'Nunito', sans-serif;;
     font-size: 20px;
     padding-right: 35px;
     color: grey;
@@ -152,7 +152,7 @@ input[type="text"] {
     top: 110px;
 }
 #belowheader h1 {
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 28px;
     margin: 0;
     border: 0;
@@ -163,7 +163,7 @@ input[type="text"] {
 }
 #belowheader span {
     color: grey;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     margin: 0;
     padding: 0;
     border: 0;
@@ -183,6 +183,7 @@ input[type="text"] {
 }
 #belowfirstimage {
     background-image: url("../images/background.jpg");
+    font-family:'Nunito', sans-serif;
     font-variant: small-caps;
     font-size: 75px;
     width: 100%;
@@ -201,7 +202,7 @@ input[type="text"] {
     text-align: left;
     text-transform: uppercase;
     font-size: 18px;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     letter-spacing: 1px;
     position: relative;
     top: 60px;
@@ -211,7 +212,7 @@ input[type="text"] {
     color: grey;
     text-transform: lowercase;
     font-size: 12px;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     letter-spacing: 1px;
     position: relative;
     top: 80px;
@@ -220,7 +221,7 @@ input[type="text"] {
     text-align: left;
     text-transform: uppercase;
     font-size: 12px;
-    font-family: Raleway, sans-serif;
+    font-family: 'Nunito', sans-serif;
     letter-spacing: 1px;
     position: relative;
     top: 50px;
@@ -233,7 +234,7 @@ input[type="text"] {
     text-align: center;
     text-transform: full-width;
     font-size: 24px;
-    font-family: Raleway, sans-serif;
+    font-family: 'Nunito', sans-serif;
     letter-spacing: 3px;
     position: relative;
     top: 100px;
@@ -261,21 +262,28 @@ input[type="text"] {
 #textforimgwithtext,
 #textwithimage {
     position: relative;
-    top: 150px;
+    top:150px;
     text-align: justify;
 }
-#textforimgwithtext {
+#textforimgwithtext,
+#textfortextwithimage{
+  font-family: 'Nunito', sans-serif;
     font-size: 14px;
 }
-#imageforimgwithtext,
-#imagefortextwithimage img {
+#textfortextwithimage{
     padding-top: 60px;
+}
+#imageforimgwithtext img {
+    padding-top: 60px;
+}
+#imagefortextwithimage img {
+    padding-top: 120px;
 }
 #portfolio {
     position: relative;
     background-image: url("../images/background.jpg");
     height: 200px;
-    font-variant: small-caps;
+    font-family: 'Nunito', sans-serif;
     font-size: 75px;
     width: 100%;
     text-align: center;
@@ -298,7 +306,7 @@ input[type="text"] {
     text-align: center;
     font-variant: small-caps;
     font-size: 12px;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     letter-spacing: 1px;
     position: relative;
     top: 190px;
@@ -310,7 +318,7 @@ input[type="text"] {
     width: 100%;
     height: 230px;
     color: grey;
-    font-family: monospace;
+    font-family: 'Nunito', sans-serif;;
     font-size: 26px;
     letter-spacing: 1px;
 }
@@ -326,7 +334,7 @@ address {
     padding-top: 0px;
     padding-left: 100px;
     font-variant: small-caps;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 span a {
     text-decoration: none;
