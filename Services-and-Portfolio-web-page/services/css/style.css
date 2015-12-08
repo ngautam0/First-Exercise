@@ -70,11 +70,6 @@ body{
     font-variant: small-caps;
 }
 #nav-bar {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    text-align: right;
     border-right: 1px solid lightgrey;
     font-variant: small-caps;
     height: 110px;
@@ -83,7 +78,7 @@ body{
     display: inline;
     font-family: 'Nunito', sans-serif;;
     font-size: 20px;
-    padding-right: 35px;
+    padding-right: 30px;
     color: grey;
 }
 #nav-bar li a {
